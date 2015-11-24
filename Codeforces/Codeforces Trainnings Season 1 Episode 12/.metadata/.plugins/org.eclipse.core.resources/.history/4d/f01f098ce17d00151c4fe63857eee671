@@ -1,0 +1,14 @@
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class main {
+	public static void main(int args, char arg[]) {
+		Scanner scan = new Scanner(System.in);
+		int T = scan.nextInt();
+		while (T-- > 0) {
+			int n = scan.nextInt();
+			BigInteger x = new BigInteger("1");
+			while(x.toString().length() < n)
+		}
+	}
+}
